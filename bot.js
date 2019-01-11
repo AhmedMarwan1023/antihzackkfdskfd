@@ -1,5 +1,4 @@
 var prefix = '!'
-client.on("message", message =>{
 if(!antic[message.author.id]) {
 antic[message.author.id] = {
 actions: 0
